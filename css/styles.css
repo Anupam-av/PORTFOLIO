@@ -164,7 +164,7 @@ hr {
 
   p {
     line-height: 2;
-    font-size: 0.9rem;
+    font-size: 0.6rem;
   }
   
   .skill-img1 {
@@ -173,12 +173,9 @@ hr {
     border-radius: 50%;
     float: left;
     margin-right: 40px;
-    margin-top: 50px;
+    margin-top: 10px;
   }
 
-  li{
-    font-size: 0.9rem;
-  }
   
 }
 
