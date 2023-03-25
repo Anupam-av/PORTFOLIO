@@ -5,76 +5,9 @@ body {
   color: #40514E;
 }
 
-
-.words{
-  margin-top: 50px;
-  width: 390px;
-  overflow: hidden;
-}
-
-span{
-  display: block;
-  width: 390px;
-  padding-top: 4px;
-  padding-left: 18px;
-  animation:spin_words 6s infinite;
-}
-
-@keyframes spin_words {
-  10%{
-      transform: translateY(-106%);
-  }
-  25%{
-      transform: translateY(-100%);
-  }
-  35%{
-      transform: translateY(-206%);
-  }
-  50%{
-      transform: translateY(-200%);
-  }
-  60%{
-      transform: translateY(-306%);
-  }
-  75%{
-      transform: translateY(-300%);
-  }
-  85%{
-      transform:translateY(-406%);
-  }
-  100%{
-      transform: translateY(-400%);
-  }
-
-}
-
-.scroller{
-  padding-left: 38%;
-}
-
-.wrapper{
-  display: flex;
-  height: 100px;
-
-  text-align: left;
-
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  color: #66BFBF;
-  font-weight: normal;
-
-}
-
-.fixed{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  color: #66BFBF;
-  font-weight: normal;
-}
-
 p {
   line-height: 2;
-  font-size: 1rem;
+
 }
 
 .top-container {
@@ -123,9 +56,8 @@ h3 {
 }
 
 .intro {
-  width: 50%;
+  width: 30%;
   margin: auto;
-
 }
 
 .bottom-cloud {
@@ -137,11 +69,7 @@ h3 {
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
-}
-
-.mountain{
-  margin-top: 50px;
+  top: 40px;
 }
 
 hr {
@@ -159,52 +87,6 @@ hr {
   .bottomLine{
     margin-top:120px;
   }
-
-}
-
-@media(max-width:980px){
-  .intro {
-    width: 60%;
-    margin: auto;
-  
-  }
-
-  p {
-    line-height: 2;
-    font-size: 0.6rem;
-  }
-  
-  .skill-img1 {
-    width: 200px;
-    height:200px;
-    border-radius: 50%;
-    float: left;
-    margin-right: 40px;
-    margin-top: 10px;
-  }
-
-  
-}
-
-@media(min-width:1500px){
-
-    .scroller{
-      padding-left: 41%;
-    }
-}
-
-@media(max-width: 1020px){
-  .bottom-cloud {
-    position: absolute;
-    left: 100px;
-    bottom: 300px;
-  }
-  
-  .top-cloud {
-    position: absolute;
-    right: 100px;
-    top: 50px;
-  }
 }
 
 .bottom-container a {
@@ -218,6 +100,7 @@ hr {
   margin-top: 70px;
 }
 
+
 .skill-row {
   width: 60%;
   margin:50px auto;
@@ -230,7 +113,7 @@ hr {
   border-radius: 50%;
   float: left;
   margin-right: 40px;
-  margin-top: 50px;
+  margin-top: 20px;
 
 }
 
@@ -320,8 +203,8 @@ li{
   border-radius: 8px;
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
-  font-size: 60%;
-  padding: 1% 2% 1% 2%;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
