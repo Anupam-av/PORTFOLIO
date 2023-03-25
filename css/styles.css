@@ -175,6 +175,10 @@ hr {
     margin-right: 40px;
     margin-top: 50px;
   }
+
+  li{
+    font-size: 0.9rem;
+  }
   
 }
 
