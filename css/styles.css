@@ -67,7 +67,7 @@ span{
 
 p {
   line-height: 2;
-
+  font-size: 1rem;
 }
 
 .top-container {
@@ -161,6 +161,21 @@ hr {
     margin: auto;
   
   }
+
+  p {
+    line-height: 2;
+    font-size: 0.9rem;
+  }
+  
+  .skill-img1 {
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 40px;
+    margin-top: 50px;
+  }
+  
 }
 
 @media(min-width:1500px){
@@ -207,7 +222,7 @@ hr {
   border-radius: 50%;
   float: left;
   margin-right: 40px;
-  margin-top: 20px;
+  margin-top: 50px;
 
 }
 
